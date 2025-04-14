@@ -61,5 +61,6 @@ const drawer = ref(true)
 const items = ref([
   { title: 'List', icon: 'mdi-view-list', to: '/' },
   { title: 'About', icon: 'mdi-information', to: '/about' },
+  {title: 'My group', icon: 'mdi-account-group', to: 'my-group'}
 ])
 </script>
